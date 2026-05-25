@@ -9,6 +9,7 @@ body{
     color:aliceblue ;
     background: url("../images/pizza.jpg");
     background-size: cover;
+    height: 100vh;
 }
 h1{
     font-size: 70px;
@@ -21,8 +22,16 @@ h1{
 
 #navbar{
     background: rgba(60, 66, 66, 0.75);
+    padding: 16px;
 }
-
+nav{
+    display: inline-block;
+    width: 75%;
+    text-align: right;
+}
+div{
+    display: inline-block;
+}
 li{
     display: inline-block;
     margin:0 16px 0 16px;
@@ -32,4 +41,17 @@ li{
 .link-menu{
     color:white;
     text-decoration: none;
+}
+
+.link-menu:hover{
+    border-bottom: 5px blueviolet solid;
+}
+
+footer{
+    background: rgba(60, 66, 66, 0.75);
+    padding: 16px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%
 }
